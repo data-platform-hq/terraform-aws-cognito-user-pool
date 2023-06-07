@@ -233,7 +233,7 @@ resource "aws_cognito_user_pool_client" "this" {
   generate_secret                               = each.value.generate_secret
   id_token_validity                             = each.value.id_token_validity
   logout_urls                                   = each.value.logout_urls
-  prevent_user_existence_errors                 = each.value.prevent_user_existence_errors ? "ENABLED": "LEGACY"
+  prevent_user_existence_errors                 = each.value.prevent_user_existence_errors ? "ENABLED" : "LEGACY"
   read_attributes                               = each.value.read_attributes
   refresh_token_validity                        = each.value.refresh_token_validity
   supported_identity_providers                  = each.value.supported_identity_providers
@@ -284,7 +284,7 @@ resource "aws_cognito_managed_user_pool_client" "this" {
   explicit_auth_flows                           = each.value.explicit_auth_flows
   id_token_validity                             = each.value.id_token_validity
   logout_urls                                   = each.value.logout_urls
-  prevent_user_existence_errors                 = each.value.prevent_user_existence_errors ? "ENABLED": "LEGACY"
+  prevent_user_existence_errors                 = each.value.prevent_user_existence_errors ? "ENABLED" : "LEGACY"
   read_attributes                               = each.value.read_attributes
   refresh_token_validity                        = each.value.refresh_token_validity
   supported_identity_providers                  = each.value.supported_identity_providers
