@@ -4,7 +4,7 @@ Terraform module for AWS Cognito User Pool creation
 ## Usage
 
 ```hcl
-module "kinesis_firehouse" {
+module "cognito_user_pool" {
   source  = "data-platform-hq/cognito-user-pool/aws"
   version = "~> 1.0"
 
