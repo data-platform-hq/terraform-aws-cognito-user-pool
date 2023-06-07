@@ -95,7 +95,7 @@ module "cognito_user_pool" {
 |-----------------------------------------------------|----------|
 | <a name="provider_aws"></a> [aws](#provider\_aws)   | >= 5.1.0 |
 
-##[README.md](README.md) Modules
+## Modules
 
 No modules.
 
